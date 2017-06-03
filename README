@@ -1,9 +1,11 @@
 oldnotes
 
+Gideon van der Kolf, 2017
+
 Small JACK MIDI client that replaces velocities of specified notes with that of
 the previously received non-specified notes.
 
-Usage: oldnotes note1 note2 note3...
+Usage: oldnotes jack_client_name note1 note2 note3...
 
 One JACK MIDI input port and one output port is created. All input is passed to
 the output, except that, for the notes specified, the velocities are modified
